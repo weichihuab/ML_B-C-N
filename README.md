@@ -1,6 +1,6 @@
 # Description
 
-This respository is the machine learning implementation for predicting mechanical properties (bulk modulus, shear modulus, and Vickers hardness) of a given compound.
+This respository is the machine learning implementation to predict mechanical properties (bulk modulus, shear modulus, and Vickers hardness) for a given compound.
 Find more information in the preprint: https://arxiv.org/abs/2011.02038.
 
 The folder "includes" has a module for generating 60 features used in our study.
