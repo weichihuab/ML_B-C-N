@@ -9,7 +9,7 @@ The folder "includes" has a module for generating 60 features used in our study.
 
 The data used in our paper is from Materials Project DFT database (https://materialsproject.org/). The data.json can be found in https://github.com/weichihuab/ML_B-C-N_data.
 
-# Run the code
+# Codes
 
 ### Building ML model
 
