@@ -1,4 +1,3 @@
-# ML_B-C-N
 
 The python code could be executed using python 3.7.
 
