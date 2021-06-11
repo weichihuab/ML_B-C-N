@@ -1,20 +1,22 @@
 # Description
 
-This respository is the machine learning implementation for predicting mechanical properties of a given compound.
+This respository is the machine learning implementation for predicting mechanical properties (bulk modulus, shear modulus, and Vickers hardness) of a given compound.
 Find more information in the preprint: https://arxiv.org/abs/2011.02038.
+
+The folder "includes" has a module for generating 60 features used in our study.
 
 # Data
 
-The data used in our paper is from Materials Project DFT database.
+The data used in our paper is from Materials Project DFT database (https://materialsproject.org/). The data.json can be found in https://github.com/weichihuab/ML_B-C-N_data.
 
-The python code could be executed using python 3.7.
+# Run the code
 
-1. The folder "includes" has a module for generating 60 features used in this study. (The version of pymatgen used in features_gen.py is 2021.2.16)
+### Building ML model
 
-2. The data.json file contains samples from Materials Project with their chemical formula and mechanical properties like bulk and shear modulus. 
+  - python rf_bulk_modulus.py
+  - python rf_shear_modulus.py
 
-3. rf_bulk_modulus.py and rf_shear_modulus.py, can generate the following files:
-
+rf_bulk_modulus.py and rf_shear_modulus.py, can generate the following files:
 
         formula_K.json               --  data of chemical formula and bulk modulus
         formula_G.json               --  data of chemical formual and shear modulus
@@ -24,5 +26,12 @@ The python code could be executed using python 3.7.
 
     NOTE: The trained random forests models would depend on the random seed, which can be set manually in rf_bulk_modulus.py and rf_shear_modulus.py using argument "random_state". 
 
+### ML model prediction
 
-4. The code rf_prediction.py loads rf_bulk_modulus.joblib and rf_shear_modulus.joblib to predict harness, bulk modulus, and shear modulus of given chemical compositions in "formula_list".
+  - python rf_prediction.py
+
+The code rf_prediction.py loads rf_bulk_modulus.joblib and rf_shear_modulus.joblib to predict harness, bulk modulus, and shear modulus of given chemical compositions in "formula_list".
+
+# Environment
+  - python 3.7
+  - pymatgen 2021.2.16
