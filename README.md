@@ -1,10 +1,10 @@
 # Description
 
-This respository is the machine learning implementation to predict mechanical properties of a given compound.
-Find more information in the preprint: https://arxiv.org/abs/2011.02038
+This respository is the machine learning implementation for predicting mechanical properties of a given compound.
+Find more information in the preprint: https://arxiv.org/abs/2011.02038.
 
 # Data
-## test
+
 The data used in our paper is from Materials Project DFT database.
 
 The python code could be executed using python 3.7.
