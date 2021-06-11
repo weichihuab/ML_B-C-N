@@ -1,8 +1,15 @@
+#Description
+
+This respository is the machine learning implementation to predict mechanical properties of a given compound.
+Find more information in the preprint: https://arxiv.org/abs/2011.02038
+
+#Data
+
+The data used in our paper is from Materials Project DFT database.
 
 The python code could be executed using python 3.7.
 
-1. The folder "includes" has a module for generating 60 features used in this study. (The version of pymatgen used in features_gen.py is 2021.2.16, and
-   please find detailed information for features in the preprint: https://arxiv.org/abs/2011.02038)
+1. The folder "includes" has a module for generating 60 features used in this study. (The version of pymatgen used in features_gen.py is 2021.2.16)
 
 2. The data.json file contains samples from Materials Project with their chemical formula and mechanical properties like bulk and shear modulus. 
 
