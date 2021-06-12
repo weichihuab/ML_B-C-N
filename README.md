@@ -35,3 +35,4 @@ The code rf_prediction.py loads rf_bulk_modulus.joblib and rf_shear_modulus.jobl
 # Environment
   - python 3.7
   - pymatgen 2021.2.16
+  - sklearn 0.23.2
