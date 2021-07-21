@@ -32,6 +32,10 @@ rf_bulk_modulus.py and rf_shear_modulus.py, can generate the following files:
 
 The code rf_prediction.py loads rf_bulk_modulus.joblib and rf_shear_modulus.joblib to predict harness, bulk modulus, and shear modulus of given chemical compositions in "formula_list".
 
+# Citation
+
+Wei-Chih Chen, Joanna N. Schmidt, Da Yan, Yogesh K. Vohra, and Cheng-Chien Chen, "Machine learning and evolutionary prediction of superhard B-C-N compounds", npj Comput Mater 7, 114 (2021). https://doi.org/10.1038/s41524-021-00585-7
+
 # Environment
   - python 3.7
   - pymatgen 2021.2.16
