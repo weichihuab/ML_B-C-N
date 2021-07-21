@@ -1,7 +1,7 @@
 # Description
 
 This respository is the machine learning implementation to predict mechanical properties (bulk modulus, shear modulus, and Vickers hardness) for a given compound.
-Find more information in our paper: https://www.nature.com/articles/s41524-021-00585-7
+Find more information in our paper "Machine learning and evolutionary prediction of superhard B-C-N compounds": https://www.nature.com/articles/s41524-021-00585-7
 
 The folder "includes" has a module for generating 60 features used in our study.
 
