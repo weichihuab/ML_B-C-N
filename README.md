@@ -34,7 +34,7 @@ The code rf_prediction.py loads rf_bulk_modulus.joblib and rf_shear_modulus.jobl
 
 # Citation
 
-Wei-Chih Chen, Joanna N. Schmidt, Da Yan, Yogesh K. Vohra, and Cheng-Chien Chen, "Machine learning and evolutionary prediction of superhard B-C-N compounds", npj Comput Mater 7, 114 (2021). https://doi.org/10.1038/s41524-021-00585-7
+Wei-Chih Chen, Joanna N. Schmidt, Da Yan, Yogesh K. Vohra, and Cheng-Chien Chen, "Machine Learning and Evolutionary Prediction of Superhard B-C-N Compounds", npj Comput Mater 7, 114 (2021). https://doi.org/10.1038/s41524-021-00585-7
 
 # Environment
   - python 3.7
