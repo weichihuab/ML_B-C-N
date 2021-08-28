@@ -30,7 +30,7 @@ rf_bulk_modulus.py and rf_shear_modulus.py, can generate the following files:
 
   - python rf_prediction.py
 
-The code rf_prediction.py loads rf_bulk_modulus.joblib and rf_shear_modulus.joblib to predict harness, bulk modulus, and shear modulus of given chemical compositions in "formula_list".
+The code rf_prediction.py loads rf_bulk_modulus.joblib and rf_shear_modulus.joblib to predict hardness, bulk modulus, and shear modulus of given chemical compositions in "formula_list".
 
 # Citation
 
